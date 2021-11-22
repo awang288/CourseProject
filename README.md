@@ -11,6 +11,9 @@ We implemented 2 tasks:
 ## Proposal
 Our initial proposal for the project is found [here](https://github.com/awang288/CourseProject/blob/main/Proposal.pdf)
 
+## Progress Report
+Our progress report is available [here](https://github.com/awang288/CourseProject/blob/main/Project%20Progress%20Report.pdf)
+
 ## References:
 - Mengting Wan, Julian McAuley, "Item Recommendation on Monotonic Behavior Chains", in RecSys'18. 
 - Mengting Wan, Rishabh Misra, Ndapa Nakashole, Julian McAuley, "Fine-Grained Spoiler Detection from Large-Scale Review Corpora", in ACL'19.
