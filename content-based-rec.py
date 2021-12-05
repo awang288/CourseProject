@@ -3,8 +3,8 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
 
 # import data
-books = pd.read_json("poetry_data/goodreads_books_poetry.json", lines = True)
-reviews = pd.read_json("poetry_data/goodreads_reviews_poetry.json", lines = True)
+books = pd.read_json("data/goodreads_books_poetry.json", lines = True)
+reviews = pd.read_json("data/goodreads_reviews_poetry_cleaned.json", lines = True)
 
 # merge both books and reviews based on book_id
 books_and_reviews = pd.merge(reviews, books, on=['book_id'])
