@@ -87,3 +87,24 @@ for book_index in top_10_2:
     book = books_and_reviews.iloc[book_index]
     id = book.book_id
     print(book.title)
+
+
+# USE CASE 3 - book not in dataset (you can use this to test - just replace the book title with whatever poetry book)
+''' For this case, we will select a Harry Potter book which is clearly not a poetry book! 
+This will show "PLEASE ENTER ANOTHER BOOK TITLE" - where you can replace this with your desired 
+poetry book for testing. Once you have a valid book, you will get back the book id and you can uncomment 
+the code block below.
+'''
+book_title_3 = "Harry Potter and the Sorcerer's Stone"
+book_3 = books_and_reviews[books_and_reviews['title'] == book_title_3]
+book_id_3 = book_3.iloc[0].book_id if not book_3.empty else 0
+print(book_id_3 if book_id_3 != 0 else "PLEASE ENTER ANOTHER BOOK TITLE")
+# print('=================use case 3: book selected=================')
+# print(book_title_3)
+# print('=================use case 3: testing - generating recommendations=================')
+# # pass the book_id to recommend_book to get the top 10 book recommendations
+# top_10_3 = recommend_book(book_id_3)
+# for book_index in top_10_3:
+#     book = books_and_reviews.iloc[book_index]
+#     id = book.book_id
+#     print(book.title)
