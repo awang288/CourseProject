@@ -155,10 +155,10 @@ if __name__=="__main__":
     
     #build corpus
     if(cfg_d['duplicates'] == 'True'):
-        books_filename = "../goodreads_books_cleaned.json.gz"
+        books_filename = "../data/goodreads_books_cleaned.json.gz"
         build_corpus(books_filename,include_duplicates=True)
     else:
-        books_filename = "../goodreads_books_cleaned_no_duplicates.json.gz"
+        books_filename = "../data/goodreads_books_cleaned_no_duplicates.json.gz"
         build_corpus(books_filename,include_duplicates=False)
         
         
