@@ -13,8 +13,8 @@ def write_file(output_filename, data_lan):
         write.writerows(data_lan)
 
 if __name__=="__main__":
-    input_filename="goodreads_book_series.json.gz"#"goodreads_reviews_poetry.json.gz"
-    output_filename="goodreads_book_series_cleaned.csv"#"goodreads_reviews_poetry_cleaned.json.gz"
+    input_filename="data/goodreads_book_series.json.gz"#"goodreads_reviews_poetry.json.gz"
+    output_filename="data/goodreads_book_series_cleaned.csv"#"goodreads_reviews_poetry_cleaned.json.gz"
 
 
     c=0

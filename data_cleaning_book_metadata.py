@@ -8,9 +8,9 @@ import pandas as pd
 
 if __name__=="__main__":
     
-    input_filename="goodreads_books.json.gz"
+    input_filename="data/goodreads_books.json.gz"
     #output_filename="goodreads_books_cleaned3.json.gz"
-    output_filename="goodreads_books_cleaned4.json.gz"
+    output_filename="data/goodreads_books_cleaned4.json.gz"
 
 
     c=0

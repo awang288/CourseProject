@@ -148,11 +148,11 @@ def clean_book_metadata(input_filename,output_filename,output_filename_no_duplic
 
 if __name__=="__main__":
 
-    clean_book_metadata("goodreads_books.json.gz",
-                        "goodreads_books_cleaned.json.gz",
-                        "goodreads_books_cleaned_no_duplicates.json.gz")
+    clean_book_metadata("data/goodreads_books.json.gz",
+                        "data/goodreads_books_cleaned.json.gz",
+                        "data/goodreads_books_cleaned_no_duplicates.json.gz")
     
-    clean_series("goodreads_book_series.json.gz","goodreads_book_series_cleaned.csv")
+    clean_series("data/goodreads_book_series.json.gz","data/goodreads_book_series_cleaned.csv")
     
     
     
