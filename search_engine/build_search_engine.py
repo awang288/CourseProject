@@ -164,7 +164,7 @@ if __name__=="__main__":
         
     
     query_output_filename="goodreads_book_series_queries.txt"
-    series_filename = "../goodreads_book_series_cleaned.csv"
+    series_filename = "../data/goodreads_book_series_cleaned.csv"
 
     #make queries to get indexed queries
     series_index_list = make_queries(series_filename,query_output_filename)
