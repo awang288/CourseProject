@@ -9,7 +9,7 @@ In this project, we implemented 2 tasks:
 - Task 2: building a content-based and collaborative-filtering recommender
 
 ## Documentation
-Link TBD
+https://docs.google.com/document/d/18ok311mhjS1RMuZb-juidDjlMmGySPr03PzGxXuZ2Q0/edit?usp=sharing
 
 ## Demo
 Link TBD
