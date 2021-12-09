@@ -1,0 +1,29 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+
+prefix = "."
+stop-words = "lemur-stopwords.txt"
+
+dataset = "book_titles_desc_no_duplicates"
+corpus = "line.toml"
+index = "idx_titles_desc_no_duplicates"
+
+duplicates = 'False'
+
+query-judgements = "book_title_qrels_no_duplicates.txt"
+
+[[analyzers]]
+method = "ngram-word"
+ngram = 1
+filter = "default-unigram-chain"
+
+[ranker]
+method = "bm25"
+k1 = 1.0
+b = 0.6
+k3 = 500
+
+[query-runner]
+query-path = "goodreads_book_series_queries.txt"
+query-id-start = 0
