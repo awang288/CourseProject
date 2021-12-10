@@ -12,7 +12,7 @@ In this project, we implemented 2 tasks:
 https://docs.google.com/document/d/18ok311mhjS1RMuZb-juidDjlMmGySPr03PzGxXuZ2Q0/edit?usp=sharing
 
 ## Demo
-Link TBD
+https://drive.google.com/folderview?id=1EGg2_3iFatuPfI6LKutHPe6t1aqjz0AY
 
 ## Progress Report
 Our progress report is available [here](https://github.com/awang288/CourseProject/blob/main/Project%20Progress%20Report.pdf)
